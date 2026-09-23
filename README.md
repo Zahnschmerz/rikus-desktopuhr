@@ -1,6 +1,6 @@
 # Rikus Desktopuhr
 
-**A clock on your Xfce desktop — four clocks to choose from, behind all your windows.**
+**A clock on your Xfce or GNOME desktop — four clocks to choose from, behind all your windows.**
 Free of charge, no sign-up, no code.
 
 ➡️ **Website and download: https://desktopuhr.rikus.info**
@@ -22,7 +22,8 @@ button in the panel, on every workspace — like a clock on the wall.
 - **See-through background**, from solid to invisible. Each clock remembers its value,
   separately for light and dark.
 - **A right-click** on the clock opens “Einstellungen” (settings) and “Schließen” (close).
-- **Starts by itself** after you log in — you can switch that off in the settings.
+- **Starts by itself** after you log in — on Xfce you can switch that off in the settings,
+  on GNOME under Extensions.
 - Weekday and date on the clock follow your computer’s language — German or English.
   The settings window speaks German.
 
@@ -50,15 +51,32 @@ sudo rm /etc/apt/sources.list.d/rikus.list /etc/apt/keyrings/rikus.gpg && sudo a
 
 Or download the file directly on **https://desktopuhr.rikus.info**.
 
+### Install (GNOME 48 — for example Debian 13 with GNOME)
+
+On GNOME the clock is an extension of the desktop, in its own package **rikus-desktopuhr-gnome**.
+Add the package repository as shown above, then install:
+
+```sh
+sudo apt update && sudo apt install rikus-desktopuhr-gnome
+```
+
+Then log out and back in once — the clock is on your desktop. A right-click on it opens the
+settings; the switch “start at login” is not there: on GNOME you switch the clock on and off
+under **Extensions**. Please install it only on a GNOME desktop — on any other desktop it would
+bring along the whole GNOME environment. Or download the file directly on
+**https://desktopuhr.rikus.info**.
+
 ### What you need
 
-**The Xfce desktop.** On other desktops such as GNOME, KDE or Cinnamon the clock has not
-been tried out yet, so its start-menu entry does not appear there. For the see-through
-background, compositing has to be switched on in Xfce — on MX Linux it is on out of the box.
+**The Xfce desktop** for the package rikus-desktopuhr — **or GNOME 48** for the package
+rikus-desktopuhr-gnome. On other desktops such as KDE or Cinnamon the clock has not been tried
+out yet, and other GNOME versions neither. For the see-through background on Xfce, compositing
+has to be switched on — on MX Linux it is on out of the box.
 
 ### Current version
 
-**0.9** (22 September 2026) — the first version.
+**0.9** (22 September 2026) — the first version. Since 23 September 2026 also for GNOME 48,
+as its own package rikus-desktopuhr-gnome.
 All changes, in German and English: https://desktopuhr.rikus.info/aenderungen
 
 ### Where the code lives
@@ -85,7 +103,8 @@ ohne Knopf in der Leiste, auf jede Arbeitsfläche — wie eine Uhr an der Wand.
 - **Durchsichtiger Hintergrund**, von deckend bis unsichtbar. Jede Uhr merkt sich ihren
   Wert, für Hell und Dunkel getrennt.
 - **Ein Rechtsklick** auf die Uhr öffnet „Einstellungen“ und „Schließen“.
-- **Startet von selbst** nach dem Anmelden — das lässt sich in den Einstellungen abschalten.
+- **Startet von selbst** nach dem Anmelden — unter Xfce lässt sich das in den Einstellungen
+  abschalten, unter GNOME bei den Erweiterungen.
 - Wochentag und Datum auf der Uhr folgen der Sprache des Rechners — Deutsch oder Englisch.
 
 ### Installieren (Xfce — zum Beispiel MX Linux oder Linux Mint mit Xfce)
@@ -112,16 +131,32 @@ sudo rm /etc/apt/sources.list.d/rikus.list /etc/apt/keyrings/rikus.gpg && sudo a
 
 Oder die Datei direkt auf **https://desktopuhr.rikus.info** herunterladen.
 
+### Installieren (GNOME 48 — zum Beispiel Debian 13 mit GNOME)
+
+Unter GNOME ist die Uhr eine Erweiterung des Desktops, im eigenen Paket **rikus-desktopuhr-gnome**.
+Die Paketquelle wie oben eintragen, dann installieren:
+
+```sh
+sudo apt update && sudo apt install rikus-desktopuhr-gnome
+```
+
+Danach einmal ab- und wieder anmelden — die Uhr steht auf dem Desktop. Ein Rechtsklick auf die
+Uhr öffnet die Einstellungen; den Schalter „Beim Anmelden starten“ gibt es dort nicht: Unter GNOME
+schaltest du die Uhr bei den **Erweiterungen** ein und aus. Bitte nur auf einem GNOME-Desktop
+installieren — auf einem anderen Desktop würde es die ganze GNOME-Oberfläche mitbringen. Oder die
+Datei direkt auf **https://desktopuhr.rikus.info** herunterladen.
+
 ### Was du brauchst
 
-**Den Xfce-Desktop.** Auf anderen Oberflächen wie GNOME, KDE oder Cinnamon ist die Uhr noch
-nicht erprobt; ihr Eintrag im Startmenü erscheint dort deshalb nicht. Damit der Hintergrund
-durchsichtig sein kann, muss in Xfce das Compositing eingeschaltet sein — bei MX Linux ist es
-das von Haus aus.
+**Den Xfce-Desktop** für das Paket rikus-desktopuhr — **oder GNOME 48** für das Paket
+rikus-desktopuhr-gnome. Auf anderen Oberflächen wie KDE oder Cinnamon ist die Uhr noch nicht
+erprobt, andere GNOME-Fassungen ebenfalls nicht. Damit der Hintergrund unter Xfce durchsichtig
+sein kann, muss das Compositing eingeschaltet sein — bei MX Linux ist es das von Haus aus.
 
 ### Aktuelle Fassung
 
-**0.9** (22. September 2026) — die erste Fassung.
+**0.9** (22. September 2026) — die erste Fassung. Seit 23. September 2026 auch für GNOME 48,
+als eigenes Paket rikus-desktopuhr-gnome.
 Alle Änderungen, deutsch und englisch: https://desktopuhr.rikus.info/aenderungen
 
 ### Wo der Quelltext liegt
