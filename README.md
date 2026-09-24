@@ -1,6 +1,6 @@
 # Rikus Desktopuhr
 
-**A clock on your Xfce or GNOME desktop — four clocks to choose from, behind all your windows.**
+**A clock on your Xfce, Cinnamon or GNOME desktop — four clocks to choose from, behind all your windows.**
 Free of charge, no sign-up, no code.
 
 ➡️ **Website and download: https://desktopuhr.rikus.info**
@@ -22,12 +22,12 @@ button in the panel, on every workspace — like a clock on the wall.
 - **See-through background**, from solid to invisible. Each clock remembers its value,
   separately for light and dark.
 - **A right-click** on the clock opens “Einstellungen” (settings) and “Schließen” (close).
-- **Starts by itself** after you log in — on Xfce you can switch that off in the settings,
+- **Starts by itself** after you log in — on Xfce and Cinnamon you can switch that off in the settings,
   on GNOME under Extensions.
 - Weekday and date on the clock follow your computer’s language — German or English.
   The settings window speaks German.
 
-### Install (Xfce — for example MX Linux or Linux Mint with Xfce)
+### Install (Xfce or Cinnamon — for example MX Linux, or Linux Mint with Xfce or Cinnamon)
 
 Add the package repository once:
 
@@ -68,15 +68,16 @@ bring along the whole GNOME environment. Or download the file directly on
 
 ### What you need
 
-**The Xfce desktop** for the package rikus-desktopuhr — **or GNOME 48** for the package
-rikus-desktopuhr-gnome. On other desktops such as KDE or Cinnamon the clock has not been tried
+**The Xfce or Cinnamon desktop** for the package rikus-desktopuhr — **or GNOME 48** for the package
+rikus-desktopuhr-gnome. On other desktops such as KDE the clock has not been tried
 out yet, and other GNOME versions neither. For the see-through background on Xfce, compositing
 has to be switched on — on MX Linux it is on out of the box.
 
 ### Current version
 
-**0.9** (22 September 2026) — the first version. Since 23 September 2026 also for GNOME 48,
-as its own package rikus-desktopuhr-gnome.
+**1.1** (24 September 2026) — now also for Cinnamon, and exactly in place on an enlarged display.
+**0.9** (22 September 2026) was the first version; since 23 September 2026 it is also available for GNOME 48,
+as its own package rikus-desktopuhr-gnome (still 0.9).
 All changes, in German and English: https://desktopuhr.rikus.info/aenderungen
 
 ### Where the code lives
@@ -103,11 +104,11 @@ ohne Knopf in der Leiste, auf jede Arbeitsfläche — wie eine Uhr an der Wand.
 - **Durchsichtiger Hintergrund**, von deckend bis unsichtbar. Jede Uhr merkt sich ihren
   Wert, für Hell und Dunkel getrennt.
 - **Ein Rechtsklick** auf die Uhr öffnet „Einstellungen“ und „Schließen“.
-- **Startet von selbst** nach dem Anmelden — unter Xfce lässt sich das in den Einstellungen
+- **Startet von selbst** nach dem Anmelden — unter Xfce und Cinnamon lässt sich das in den Einstellungen
   abschalten, unter GNOME bei den Erweiterungen.
 - Wochentag und Datum auf der Uhr folgen der Sprache des Rechners — Deutsch oder Englisch.
 
-### Installieren (Xfce — zum Beispiel MX Linux oder Linux Mint mit Xfce)
+### Installieren (Xfce oder Cinnamon — zum Beispiel MX Linux oder Linux Mint mit Xfce oder Cinnamon)
 
 Die Paketquelle einmal eintragen:
 
@@ -148,15 +149,16 @@ Datei direkt auf **https://desktopuhr.rikus.info** herunterladen.
 
 ### Was du brauchst
 
-**Den Xfce-Desktop** für das Paket rikus-desktopuhr — **oder GNOME 48** für das Paket
-rikus-desktopuhr-gnome. Auf anderen Oberflächen wie KDE oder Cinnamon ist die Uhr noch nicht
+**Den Xfce- oder Cinnamon-Desktop** für das Paket rikus-desktopuhr — **oder GNOME 48** für das Paket
+rikus-desktopuhr-gnome. Auf anderen Oberflächen wie KDE ist die Uhr noch nicht
 erprobt, andere GNOME-Fassungen ebenfalls nicht. Damit der Hintergrund unter Xfce durchsichtig
 sein kann, muss das Compositing eingeschaltet sein — bei MX Linux ist es das von Haus aus.
 
 ### Aktuelle Fassung
 
-**0.9** (22. September 2026) — die erste Fassung. Seit 23. September 2026 auch für GNOME 48,
-als eigenes Paket rikus-desktopuhr-gnome.
+**1.1** (24. September 2026) — jetzt auch für Cinnamon, und bei vergrößerter Anzeige genau an der gewählten Stelle.
+**0.9** (22. September 2026) war die erste Fassung; seit 23. September 2026 gibt es sie auch für GNOME 48,
+als eigenes Paket rikus-desktopuhr-gnome (weiter 0.9).
 Alle Änderungen, deutsch und englisch: https://desktopuhr.rikus.info/aenderungen
 
 ### Wo der Quelltext liegt
